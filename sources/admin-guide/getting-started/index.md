@@ -21,6 +21,7 @@ The full suite of software is distributed as easy to install linux packages that
 
 ## Deployment
 The Gluu Server is very flexible, and can be deployed on any physical or virtual server. Depending on the size of your data, and the number of concurrent authentications you want to be able to support, you may need more or less memory or CPU capacity.        
+
 **Server Requirements:**    
 We recommend at least 2 CPU units, 4 GB of RAM, and around 30GB of disk space. From there, you may need to adjust the resources based on the requirements.
  
