@@ -14,7 +14,7 @@ This document will show you how to get up and running with the Gluu Server. It i
 
 ## What is the Gluu Server
 
-The Gluu Server is an identity and access management suite comprised of free open source software (FOSS) components. Some of the software we built (all OX products), and some of the software we pulled from existing open source projects (Shibboleth, OpenDJ, Asimba, and CAS). 
+The Gluu Server is an identity and access management suite comprised of free open source software (FOSS) components. Some of the software was written by Gluu (all OX products), and some of the software we forked from existing open source projects (Shibboleth, OpenDJ, Asimba, and CAS). Learn more about each of the licenses in place [here](../introduction/index.md#licenses).
 
 The full suite of software is distributed as easy to install linux packages that support either single server or clustered deployments. In order to gain access to the clustered packages, a commercial license needs to be purchased. More about that below in Deployments.
 
