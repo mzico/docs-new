@@ -51,4 +51,4 @@ The Gluu Server stack includes both a SAML and OpenID Connect Identity Provider 
 
 
 ## Web & API Access Management
-The Gluu Server includes an UMA Authorization Server (AS) that can be used to enforce policy for any API or web resource. UMA is a profile of OAuth2 that is complimentary to OpenID Connect. UMA defines RESTful, JSON-based, standardized flows and constructs for access management. 
+The Gluu Server includes an UMA Authorization Server (AS) that can be used to enforce policies for access to any API or web resource. UMA is a profile of OAuth2 that is complimentary to OpenID Connect. UMA defines RESTful, JSON-based, standardized flows and constructs for access management. 
