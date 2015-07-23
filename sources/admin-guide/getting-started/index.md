@@ -26,7 +26,12 @@ The Gluu Server is very flexible, and can be deployed on any physical or virtual
 We recommend at least 2 CPU units, 4 GB of RAM, and around 30GB of disk space. From there, you may need to adjust the resources based on the requirements.
  
 **OS Support:**     
-We currently support and maintain package repositories for Ubuntu, CentOS, and Red Hat. 
+We currently support and maintain package repositories for Ubuntu, CentOS, and Red Hat.   
+
+**Deployment Models:**  
+*Single Server:* You can find deployment instructions for a single instance of the Gluu Server by following one of the links above to your preferred operating system. All single server deployments of the Gluu Server can be deployed in production with an unlimited number of users for free.   
+
+*Clusters:*  To deploy a cluster of Gluu Servers, your best option is to purchase one or more of our commercial cluster licenses. You can purchase a single license which supports a two server cluster via our ecommerce system for $1,995 per license. To deploy a more robust environment, you may want to purchase an enterprise license, which will enable you to cluster your Gluu Servers across as many servers and in as many environements (i.e. QA, Production, Development, Staging, etc.) as desired. 
 
 ## Dashboard
 The dashboard shows you metrics on the health and activity of your Gluu Server. 
