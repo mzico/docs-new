@@ -16,19 +16,19 @@ This document will show you how to get up and running with the Gluu Server. It i
 
 The Gluu Server is an identity and access management suite comprised of free open source software (FOSS) components. Some of the software was written by Gluu (all OX products), and some of the software we forked from existing open source projects (Shibboleth, OpenDJ, Asimba, and CAS). Learn more about each of the open source licenses [here](../introduction/index.md#licenses).
 
-The full suite of software is distributed as easy to install linux packages that support either single server or clustered deployments. In order to gain access to the clustered packages, a commercial license needs to be purchased. More about that below in [Deployments](#deployment).
+The full suite of software is distributed as easy to install linux packages that support either single server or clustered deployments. In order to gain access to the clustered packages, a commercial license needs to be purchased. More about that below in [Deployment Models](#deployment-models).
 
 
 ## Deployment
 The Gluu Server is very flexible, and can be deployed on any physical or virtual server. Depending on the size of your data, and the number of concurrent authentications you want to be able to support, you may need more or less memory or CPU capacity.        
 
-**Server Requirements:**    
+##### Server Requirements:    
 We recommend at least 2 CPU units, 4 GB of RAM, and around 30GB of disk space. From there, you may need to adjust the resources based on the requirements.
  
-**OS Support:**     
+##### OS Support:     
 We currently support and maintain package repositories for Ubuntu, CentOS, and Red Hat.   
 
-**Deployment Models:**  
+##### Deployment Models:  
 *Single Server:* You can find deployment instructions for a single instance of the Gluu Server by following one of the links above to your preferred operating system. All single server deployments of the Gluu Server can be deployed in production with an unlimited number of users for free.   
 
 *Clusters:*  To deploy a cluster of Gluu Servers, your best option is to purchase one or more of our commercial cluster licenses. You can purchase a single license which supports a two server cluster via our ecommerce system for $1,995 per license. To deploy a more robust environment, you may want to purchase an enterprise license, which will enable you to cluster your Gluu Servers across as many servers and in as many environements (i.e. QA, Production, Development, Staging, etc.) as desired. 
