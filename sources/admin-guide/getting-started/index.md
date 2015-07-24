@@ -39,6 +39,9 @@ The dashboard shows you metrics on the health and activity of your Gluu Server.
 ## Authentication
 The Gluu Server provides an interface to centrally configure authentication logic for your organization. 
 
+### Basic Authentication
+Organization can either use their own _Gluu Server_ or backend AD/LDAP as the source of authentication. `Basic` is the  authentication system shipped with Community Edition ( codename: 'Gluu CE' ) of Gluu Server.
+
 ### Customer Authentication
 ### Multi-Factor Authentication
 
